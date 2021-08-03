@@ -28,7 +28,7 @@ addLayer("o", {
     upgrades: {
 	    11: {
 		    name: "Burger",
-		    description:  "Bad idea gain is multiplied based on Original but bad ideas.",
+		    description:  "Bad idea gain is multiplied based on Bad ideas.",
 		    cost: new Decimal(1),
 		     effect() {
                 	return player.points.add(1).pow(0.25)
