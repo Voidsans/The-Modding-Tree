@@ -38,8 +38,8 @@ addLayer("o", {
 	    12: { 
 		    name: "Cheese",
 		    description:  "Original but bad idea gain is multiplied based on original but bad ideas."
-		    cost:  new Decimal(5),
-		    effect() {
+		    cost: new Decimal(5),
+		     effect() {
                 	return player.[this.layer].points.add(1).pow(0.25)
             		},
             		effectDisplay() { return format(upgradeEffect(this.layer, this.id))+"x" }, 
