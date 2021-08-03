@@ -36,5 +36,4 @@ addLayer("o", {
             		effectDisplay() { return format(upgradeEffect(this.layer, this.id))+"x" }, 
 }
     }
-)}
-	 }
+})
